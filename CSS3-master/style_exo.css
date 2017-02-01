@@ -4,27 +4,28 @@
 
 .cube:hover {
   /* A completer */
-
-
-
+transition: background-color 9s;
+background-color: red;
 }
 
 .cube2:hover{
   /* A completer */
-
-
-
+  transition: background-color 0.1s;
+  background-color: red;
 }
 
 .cube3:hover{
   /* A completer */
-
+  transition: background-color 0s 5s;
+  background-color: red;
 
 
 }
 
 .cube4:hover{
   /* A completer */
+  transition: width 15s linear;
+  width: 100%;
 
 
 
@@ -32,27 +33,28 @@
 
 .cube5:hover{
   /* A completer */
-
+transform: rotate(360deg);
+transition: 1s;
 
 
 }
 
 div.img:hover img#lievre{
   /* A completer */
-
-
+    transform: translate(500px);
+    transition: 2s;
 
 }
 
 div.img:hover img#drapeau {
     /* A completer */
-
+    transform:
 
 
 }
 
 #carre-rond{
-  float:right;
+    float:right;
 	width: 90px; height: 90px;
 	margin: 15px 30px;
 	background: #fff;
@@ -65,7 +67,6 @@ div.img:hover img#drapeau {
 
 #carre-rond:hover {
 	/* A completer */
-
 
 
 }
@@ -82,7 +83,8 @@ div.img:hover img#drapeau {
 .mv-item a:hover, .mv-item a:focus { /*Couleur du fond #1ABC9C, police #FFF*/
 	/* A completer */
 
-
+transition: bakground-color;
+background-color: #1ABC9C;
 
 }
 
